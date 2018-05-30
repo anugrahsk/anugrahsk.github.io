@@ -1,90 +1,71 @@
 *{
-	margin:0;
+	border:0;
 	padding:0;
+	margin:0;
 }
-.style-1{
-	background-color:666666;
-	color:#555555;
-	font-family:Arial,Helvetica,sans-seriff;
-	font-size:16px;
-	font-weight:normal;
-	/*
-	font:normal 16px Arial,Helvetica,sans-seriff;*/
+body{
+	background-color:#f2f2f2;
 }
-.style-2{
-	text-shadow:2px 2px 5px #35eea4;
-	border:none;
-	font-family:sans-seriff;
-	font-weight:bolder;
-	padding:30vh 15vw 36vh 15vw;
-	background-color:black;
-	font-size:25px;
-	color:white;
-	text-transform:uppercase;
-	text-align:center;
-	line-height:2.5em;
-	letter-spacing:2px;
-}
-
-.about{
-	text-shadow:4px 4px 4px #d6c2d6;
-	display:flex;
-	flex-direction:row;
-    padding:30vh 0 40vh 10vw;
-	width:80%;
-	align-items:left-side;
-	line-height:2em;
-	letter-spacing:1px;
-}
-
-	
-.image{
-
-	box-shadow:4px 4px 4px 2px 	#4d334d;
-}
-.tech{
-	
-	background-color:#00ffff;
-	padding:23vh 0 20vh 10vw;
-	text-transform:uppercase;
-
-
-}
-.move{
-	display:flex;
-	flex-wrap:wrap;
-}
-	
-.icon{
-	padding-right:15vw;
-	padding-top:5vh;
-	width:15%;
-
-}
-
-.work{
-	padding:55vh 10vw 45vh 10vw;
-	font:normal 25px Comic Sans MS;
-	background-color:#ffe6e6;
-}
-
-
-@media only screen and (max-width:765px)
+.back
 {
-	.move{
-		order:-1;
-		flex-direction:column;
-		width:90vw;
-	}
-	.about  {
-        flex-direction: column;
-    }
+	background-position:center;
+    height:25vh;
+	width:100%;
+	background-color:#009973;
+	position:absolute;
+}
+.con
+{	
+	width:65vw;
+	height:87vh;
+	display:block;
+	box-sizing:border-box;
+	margin:50px auto;
+	margin-top:4vh;
+	position:relative;
+	background-color:#f2f2f2;
+	border-top:solid 8vh green;	
 	
-    .about .image {
-        order: -1;
-    }
-    .about .image{
-        width: 60vw;
-		font-size:24px;
-    }
+}
+.blue
+{
+	margin:0;
+	border:0;
+	padding:0;
+	width:max-width;
+}
+.four{
+	
+
+	font-family:Helventica Neue Light;
+	font-size:1.2em;
+	font-weight:600;
+	background-color:#339933;
+	color:#fff;
+	
+}
+.pic{
+	background-color:orange;
+	width:max-width;
+	height:5vh;
+	text-align:center;
+	
+}
+.wide{
+	background-color:#f2f2f2;
+	height:10vh;
+	width:100%;
+}
+.bar{
+	background-color:green;
+	width:100vw;
+	padding-top:2vh;
+	color:#000;
+	text-align:center;
+}
+.scroll{
+	height:45vh;
+	width:65vw;
+	overflow:scroll;
+	overflow-x:hidden;
 }
